@@ -8,6 +8,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://em4go.github.io',
-  // base: 'em4go-blog',
+  base: 'em4go-blog',
   integrations: [mdx(), sitemap(), svelte(), tailwind()]
 });
